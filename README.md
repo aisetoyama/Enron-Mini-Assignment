@@ -9,6 +9,7 @@ You will want to download an annotated sample of the Enron emails from UC Berkel
 ## Results 
 1. [Question1.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572374/Question1.csv)
 2. Person who received the largest number of direct emails: 	maureen.mcvicker@enron.com, [Question2a.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572375/Question2a.csv)
+   
    Person who sent the largest number of broadcast emails:  steven.kean@enron.com, [Question2b.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572376/Question2b.csv)
 3. [Question3.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572371/Question3.csv)
 
