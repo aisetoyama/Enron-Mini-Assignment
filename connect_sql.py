@@ -110,7 +110,7 @@ ORDER BY COUNT(msg_id) DESC
 LIMIT 1"""
 mycursor.execute(question2a_sql)
 
-# Save outputt as CSV
+# Save output as CSV
 q2a_data = mycursor.fetchall()
 with open('Question2a.csv', 'w', newline='') as f_handle:
     writer = csv.writer(f_handle)
@@ -154,7 +154,7 @@ ORDER BY time_diff
 LIMIT 5"""
 mycursor.execute(question3_sql)
 
-# Save outputt as CSV
+# Save output as CSV
 q3_data = mycursor.fetchall()
 with open('Question3.csv', 'w', newline='') as f_handle:
     writer = csv.writer(f_handle)
