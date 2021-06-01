@@ -46,7 +46,7 @@ def email_analyse(inputfile, dictionary_email_list, to_email_dict):
 dictionary_email_list = []
 received_emails = []
 
-# iterate through each email txt file in enron_with_categories
+# Iterate through each email txt file in enron_with_categories
 for directory, subdirectory, filenames in  os.walk(rootdir):
     for filename in filenames:
         if filename != "categories.txt" and filename.endswith(".txt"):
