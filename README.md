@@ -13,3 +13,6 @@ You will want to download an annotated sample of the Enron emails from UC Berkel
    Person who sent the largest number of broadcast emails:  steven.kean@enron.com, [Question2b.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572376/Question2b.csv)
 3. [Question3.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572371/Question3.csv)
 
+### Assumptions about data
+- It was asssumed that a person would not receive the same email more than once. (ie. A person would not be a direct recipient (TO:) and CC'd on the same email)
+
