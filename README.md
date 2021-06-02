@@ -7,11 +7,11 @@ You will want to download an annotated sample of the Enron emails from UC Berkel
 3. Find the five emails with the fastest response times. (A response is defined as a message from one of the recipients to the original sender whose subject line contains all of the words from the subject of the original email, and the response time should be measured as the difference between when the original email was sent and when the response was sent.). This is a bonus question. (Assignment #3)
 
 ## Results 
-1. [Question1.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572374/Question1.csv)
-2. Person who received the largest number of direct emails: 	maureen.mcvicker@enron.com, [Question2a.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572375/Question2a.csv)
+1. [Question1.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/blob/main/Question1.csv)
+2. Person who received the largest number of direct emails: 	maureen.mcvicker@enron.com, [Question2a.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/blob/main/Question2a.csv)
    
-   Person who sent the largest number of broadcast emails:  steven.kean@enron.com, [Question2b.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572376/Question2b.csv)
-3. [Question3.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/files/6572371/Question3.csv)
+   Person who sent the largest number of broadcast emails:  steven.kean@enron.com, [Question2b.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/blob/main/Question2b.csv)
+3. [Question3.csv](https://github.com/aisetoyama/Enron-Mini-Assignment/blob/main/Question3.csv)
 
 ### Assumptions about data
 - It was asssumed that a person would not receive the same email more than once. (ie. A person would not be a direct recipient (TO:) and CC'd on the same email)
