@@ -124,7 +124,7 @@ output_to_csv(q2a_data, q2a_header, 'Question2a.csv')
 # Identify the person (or people) who sent the largest number of broadcast emails (Asssignment #2)
 question2b_sql = """SELECT from_ppl, MAX(s1.count) AS max_count
 FROM (SELECT from_ppl, COUNT(msg_id) as count
-FROM emails
+FROM email
 WHERE direct = 0
 GROUP BY from_ppl
 ORDER BY COUNT(msg_id) DESC
