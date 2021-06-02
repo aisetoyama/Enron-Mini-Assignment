@@ -15,4 +15,3 @@ You will want to download an annotated sample of the Enron emails from UC Berkel
 
 ### Assumptions about data
 - It was asssumed that a person would not receive the same email more than once. (ie. A person would not be a direct recipient (TO:) and CC'd on the same email)
-
