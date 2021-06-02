@@ -124,7 +124,7 @@ output_to_csv(q2a_data, q2a_header, 'Question2a.csv')
 # Identify the person (or people) who sent the largest number of broadcast emails (Asssignment #2)
 question2b_sql = """SELECT from_ppl, MAX(s1.count) AS max_count
 FROM (SELECT from_ppl, COUNT(msg_id) as count
-FROM email
+FROM emails
 WHERE direct = 0
 GROUP BY from_ppl
 ORDER BY COUNT(msg_id) DESC
@@ -138,7 +138,7 @@ q2b_header = ['from_ppl', 'count']
 output_to_csv(q2b_data, q2b_header, 'Question2b.csv')
 
 # Find the five emails with the fastest response times. (Assignment #3)
-question3_sql = """SELECT MIN(TIME_TO_SEC(TIMEDIFF(e1.date, e2.date))) as time_diff, MIN(e2.date) as first_date, MIN(e1.date) as second_date, MIN(e1.subject) as subject, MIN(e1.from_ppl) as first_sender, MIN(e2.from_ppl) as second_sender
+question3_sql = """SELECT e1.msg_id, MIN(TIME_TO_SEC(TIMEDIFF(e1.date, e2.date))) as time_diff, MIN(e2.date) as first_date, MIN(e1.date) as second_date, MIN(e1.subject) as subject, MIN(e1.from_ppl) as first_sender, MIN(e2.from_ppl) as second_sender
 FROM emails as e1, emails as e2 
 WHERE (e1.clean_subject = e2.clean_subject) 
 AND (TIME_TO_SEC(TIMEDIFF(e1.date, e2.date)) > 0)
@@ -151,7 +151,7 @@ mycursor.execute(question3_sql)
 
 # Save output as CSV
 q3_data = mycursor.fetchall()
-q3_header = ['time_diff', 'first_date', 'second_date', 'subject', 'first_sender', 'second_sender']
+q3_header = ['msg_id', 'time_diff', 'first_date', 'second_date', 'subject', 'first_sender', 'second_sender']
 output_to_csv(q3_data, q3_header, 'Question3.csv')
 
 mydb.commit()

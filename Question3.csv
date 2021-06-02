@@ -1,7 +1,7 @@
-time_diff,first_date,second_date,subject,first_sender,second_sender
-148,2001-11-21 08:48:57,2001-11-21 08:52:26,FW: Confidential - GSS Organization Value to ETS,stanley.horton@enron.com,rod.hayslett@enron.com
-236,2001-10-26 08:51:41,2001-10-26 09:22:54,RE: CONFIDENTIAL Personnel issue,lizzette.palmer@enron.com,gina.corteselli@enron.com
-240,2001-05-10 06:51:00,2001-05-10 06:55:00,RE: Eeegads...,jeff.dasovich@enron.com,paul.kaufman@enron.com
-262,2001-07-30 11:17:48,2001-07-30 11:22:10,"FW: SRP SETTLEMENT PROPOSAL - PRIVILEGED AND CONFIDENTIAL FOR
+msg_id,time_diff,first_date,second_date,subject,first_sender,second_sender
+<18660781.1075862331602.JavaMail.evans@thyme>,148,2001-11-21 08:48:57,2001-11-21 08:52:26,FW: Confidential - GSS Organization Value to ETS,stanley.horton@enron.com,rod.hayslett@enron.com
+<21343473.1075853118912.JavaMail.evans@thyme>,236,2001-10-26 08:51:41,2001-10-26 09:22:54,RE: CONFIDENTIAL Personnel issue,lizzette.palmer@enron.com,gina.corteselli@enron.com
+<2612882.1075843476998.JavaMail.evans@thyme>,240,2001-05-10 06:51:00,2001-05-10 06:55:00,RE: Eeegads...,jeff.dasovich@enron.com,paul.kaufman@enron.com
+<2773189.1075852079705.JavaMail.evans@thyme>,262,2001-07-30 11:17:48,2001-07-30 11:22:10,"FW: SRP SETTLEMENT PROPOSAL - PRIVILEGED AND CONFIDENTIAL FOR
  SETTLEM	ENT DISCUSSIONS ONLY",stephanie.miller@enron.com,m..tholt@enron.com
-322,2001-10-26 08:51:41,2001-10-26 09:18:58,RE: CONFIDENTIAL Personnel issue,michelle.cash@enron.com,gina.corteselli@enron.com
+<19096180.1075853121576.JavaMail.evans@thyme>,322,2001-10-26 08:51:41,2001-10-26 09:18:58,RE: CONFIDENTIAL Personnel issue,michelle.cash@enron.com,gina.corteselli@enron.com
